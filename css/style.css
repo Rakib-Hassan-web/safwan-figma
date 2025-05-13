@@ -1,4 +1,5 @@
 /* --------------font links   */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 /* ========comon css============ */
@@ -11,7 +12,7 @@ ul,ol{
     list-style: none;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
 h1,h2,h3,h4,h5,h6,p,a,ul,ol{
     margin: 0;
@@ -26,13 +27,27 @@ img{
 
 /* ------------nav st---------- */
 
+.main_nav{
+    padding-top: 30px !important;
+}
 .nav_logo{
     width: 122px;
 }
+  
 
+.nav_items{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
 
+.nav_items li a{
+    color: #00413D !important;
+      font-family: "Jost", sans-serif;
 
-
+}
 
 
 
