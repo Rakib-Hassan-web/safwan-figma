@@ -29,6 +29,9 @@ img{
 
 .main_nav{
     padding-top: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav_logo{
     width: 122px;
@@ -41,6 +44,7 @@ img{
     font-size: 18px;
     font-weight: 400;
     
+    
 }
 
 .nav_items li a{
@@ -49,7 +53,30 @@ img{
 
 }
 
+.nav_cv{
+    background: transparent;
+      font-family: "Jost", sans-serif;
+     font-size: 16px;
+     font-weight: 500;
+     transition: all linear.3s;
+     padding: 18px 35px;
+    background: #E5745D;
+
+     border: 2px solid #000 ;
+   
+     bo
+}
+
+/* .nav_cv:hover{
+    background: #E5745D;
+    color: #fff !important;
+       border: 2px #fff solid transparent;
+     box-shadow: 0 0 0 5px transparent; */
 
 
+.nav_cv a{
+     color: rgb(255, 255, 255) !important;
+    
+}
 
 /* ------------nav end-------- */
