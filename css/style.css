@@ -1,0 +1,40 @@
+/* --------------font links   */
+
+
+/* ========comon css============ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/* ------------nav st---------- */
+
+.nav_logo{
+    width: 122px;
+}
+
+
+
+
+
+
+
+
+/* ------------nav end-------- */
