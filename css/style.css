@@ -53,30 +53,35 @@ img{
 
 }
 
-.nav_cv{
+.nav_cv {
+    width: 174px;
     background: transparent;
-      font-family: "Jost", sans-serif;
-     font-size: 16px;
-     font-weight: 500;
-     transition: all linear.3s;
-     padding: 18px 35px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all linear.3s;
+    padding: 15px 30px;
     background: #E5745D;
-
-     border: 2px solid #000 ;
-   
-     bo
+    border: 2px solid #fff;
 }
 
-/* .nav_cv:hover{
+
+.main_cv{
+    padding: 8px;
     background: #E5745D;
-    color: #fff !important;
-       border: 2px #fff solid transparent;
-     box-shadow: 0 0 0 5px transparent; */
-
-
-.nav_cv a{
      color: rgb(255, 255, 255) !important;
+     transition: all linear .3s;
+       
+}
+.nav_cv a{
+    color: #fff !important;
+}
+
+
+.main_cv:hover{
+    background: #fff;
     
+
 }
 
 /* ------------nav end-------- */
