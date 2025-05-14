@@ -63,8 +63,14 @@ img{
     padding: 15px 30px;
     background: #E5745D;
     border: 2px solid #fff;
+    transition: all linear.3s;
 }
 
+.nav_cv:hover{
+    border: 2px solid #000000;
+    background: #fff;
+
+}
 
 .main_cv{
     padding: 8px;
@@ -74,14 +80,25 @@ img{
        
 }
 .nav_cv a{
+    width: 180px !important;
     color: #fff !important;
+     transition: all linear .3s;
+
+
+}
+
+.nav_cv a:hover{
+   
+    color: black !important;
+
 }
 
 
 .main_cv:hover{
     background: #fff;
-    
+    color: black !important;
 
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 /* ------------nav end-------- */
