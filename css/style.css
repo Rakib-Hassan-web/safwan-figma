@@ -50,6 +50,13 @@ img{
 .nav_items li a{
     color: #00413D !important;
       font-family: "Jost", sans-serif;
+     transition: all linear .3s;
+
+
+}
+
+.nav_items li a:hover{
+    color: #E5745D !important;
 
 }
 
