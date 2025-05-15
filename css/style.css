@@ -1,6 +1,7 @@
 /* --------------font links   */
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 
 /* ========comon css============ */
 *{
@@ -57,6 +58,7 @@ img{
 
 .nav_items li a:hover{
     color: #E5745D !important;
+    transform: scale(1.3);
 
 }
 
@@ -126,20 +128,35 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rg
 .image_style_elements {
     position: absolute;
     top: 200px;
-    left: -351px;
-    opacity: 1;
+    left: -451px;
+    opacity: .3;
 }
 
 .banner_img2{
- width: 845px;
+ width: 838px;
     position: absolute;
     right: 0;
     top: 120px;
 }
 
+.bananer_txt {
+    position: absolute;
+    top: 340px;
+    left: 383px;
+}
+.bananer_txt h1{
+    font-size: 100px;
+    font-weight: 700;
+      font-family: "Vollkorn", serif;
+     color: #fff;
+}
 
-
-
+.bananer_txt h2{
+    font-size: 100px;
+    font-weight: 700;
+      font-family: "Vollkorn", serif;
+     color: #fff;
+}
 
 
 
