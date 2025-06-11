@@ -5,6 +5,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
 /* ========comon css============ */
 * {
     margin: 0;
@@ -198,6 +200,7 @@ img {
     font-family: "Jost", sans-serif;
     color: #fff;
 }
+
 .contect {
     margin-top: 76px;
     width: 190px;
@@ -207,6 +210,7 @@ img {
     background: #E5745D;
     transition: all linear .3s;
 }
+
 .contect .contact_btn {
     padding: 21px 39px;
     background: #E5745D;
@@ -218,7 +222,7 @@ img {
 
 }
 
-.contact_btn:hover{
+.contact_btn:hover {
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
 }
 
@@ -226,17 +230,25 @@ img {
 /* <!-- ============= banner end============== --> */
 
 
-    /* <!-- =============service part st=============== --> */
+/* <!-- =============service part st=============== --> */
 
 
-.name{
+.name {
     width: 171px;
-    text-align: center;
     display: flex;
-    /* justify-content: space-between; */
-    align-items: center;
+ gap: 12px;
 }
-.service_{
+.name-ceneter{
+
+    text-align: center;
+}
+.service_ {
+
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Vollkorn", serif;
+    color: #E5745D;
+
 
 }
 
@@ -244,28 +256,28 @@ img {
 
 
 
-    /* <!-- ================== service part end =============== --> */
+/* <!-- ================== service part end =============== --> */
 
-    /* <!-- =============nav st=============== --> */
-
-
-
-    /* <!-- ================== nav end =============== --> */
-
-    /* <!-- =============nav st=============== --> */
+/* <!-- =============nav st=============== --> */
 
 
 
-    /* <!-- ================== nav end =============== --> */
+/* <!-- ================== nav end =============== --> */
 
-    /* <!-- =============nav st=============== --> */
-
-
-
-    /* <!-- ================== nav end =============== --> */
-
-    /* <!-- =============nav st=============== --> */
+/* <!-- =============nav st=============== --> */
 
 
 
-    /* <!-- ================== nav end =============== --> */
+/* <!-- ================== nav end =============== --> */
+
+/* <!-- =============nav st=============== --> */
+
+
+
+/* <!-- ================== nav end =============== --> */
+
+/* <!-- =============nav st=============== --> */
+
+
+
+/* <!-- ================== nav end =============== --> */
