@@ -204,6 +204,7 @@ img {
     padding-top: 30px;
     padding-left: 8px;
     background: #E5745D;
+    transition: all linear .3s;
 }
 .contect .contact_btn {
     padding: 21px 39px;
@@ -216,6 +217,9 @@ img {
 
 }
 
+.contact_btn:hover{
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
 
 
 /* <!-- ============= banner st=============== --> */
