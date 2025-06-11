@@ -231,16 +231,22 @@ img {
 
 
 /* <!-- =============service part st=============== --> */
-
+#service{
+    margin-top: 220px;
+}
 
 .name {
-    width: 171px;
+    /* width: 171px; */
     display: flex;
+    margin-left: 510px;
+   
  gap: 12px;
 }
-.name-ceneter{
 
-    text-align: center;
+.fa-opencart{
+    font-size: 18px;
+    color: #E5745D;
+
 }
 .service_ {
 
