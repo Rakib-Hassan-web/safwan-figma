@@ -275,6 +275,7 @@ img {
     width: 370px;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding-top: 50px;
     padding-left: 35px;
+    padding-bottom: 50px;
 
 }
 .ui_img {
@@ -297,6 +298,13 @@ img {
     font-family: "Jost", sans-serif;
     color: #00413D;
     margin-top: 15px;
+    margin-bottom: 30px;
+    
+}
+
+.icon{
+    font-size: 30px;
+    cursor: pointer;
 }
 
 
