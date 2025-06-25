@@ -303,8 +303,16 @@ img {
 }
 
 .icon{
-    font-size: 30px;
+    font-size: 34px;
     cursor: pointer;
+    transition: all linear .3s;
+    font-weight: 700;
+}
+
+.icon:hover{
+    color: #E5745D;
+ 
+
 }
 
 
