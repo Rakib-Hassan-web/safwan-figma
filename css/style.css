@@ -231,35 +231,37 @@ img {
 
 
 /* <!-- =============service part st=============== --> */
-#service{
+#service {
     margin-top: 220px;
 }
-
 .name {
-    /* width: 171px; */
+    width: 171px;
     display: flex;
-    margin-left: 510px;
    
- gap: 12px;
+    gap: 12px;
+    margin: 0 auto;
 }
 
-.fa-opencart{
+.fa-opencart {
     font-size: 18px;
     color: #E5745D;
 
 }
-.service_ {
 
+.service_ {
     font-size: 18px;
     font-weight: 500;
     font-family: "Vollkorn", serif;
     color: #E5745D;
-
-
+    
+    
 }
-.service_header{
+
+.service_header {
+    margin: 0 auto;
     width: 517px;
     text-align: center;
+
     color: #00413D;
     font-family: "Vollkorn", serif;
     font-size: 50px;
