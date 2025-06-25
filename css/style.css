@@ -234,10 +234,11 @@ img {
 #service {
     margin-top: 220px;
 }
+
 .name {
     width: 171px;
     display: flex;
-   
+
     gap: 12px;
     margin: 0 auto;
 }
@@ -253,8 +254,8 @@ img {
     font-weight: 500;
     font-family: "Vollkorn", serif;
     color: #E5745D;
-    
-    
+
+
 }
 
 .service_header {
@@ -270,8 +271,33 @@ img {
 
 }
 
+.ui_designer{
+    width: 370px;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-top: 50px;
+    padding-left: 35px;
 
+}
+.ui_img {
+    width: 68px;
+    margin-bottom: 26px;
+}
 
+.ui_designer h2 {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Vollkorn", serif;
+    color: #00413D;
+
+}
+
+.ui_designer p {
+    width: 245px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    color: #00413D;
+    margin-top: 15px;
+}
 
 
 /* <!-- ================== service part end =============== --> */
