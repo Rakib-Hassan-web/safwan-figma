@@ -271,13 +271,16 @@ img {
 
 }
 
-.ui_designer{
-    width: 370px;box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.ui_designer {
+    width: 370px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding-top: 50px;
     padding-left: 35px;
     padding-bottom: 50px;
+    border-radius: 5px;
 
 }
+
 .ui_img {
     width: 68px;
     margin-bottom: 26px;
@@ -299,21 +302,24 @@ img {
     color: #00413D;
     margin-top: 15px;
     margin-bottom: 30px;
-    
+
 }
 
-.icon{
+.icon {
     font-size: 34px;
     cursor: pointer;
     transition: all linear .3s;
     font-weight: 700;
 }
 
-.icon:hover{
+.icon:hover {
     color: #E5745D;
- 
+
 
 }
+
+
+
 
 
 /* <!-- ================== service part end =============== --> */
